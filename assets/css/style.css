@@ -22,6 +22,8 @@
         overflow: auto;
         width: 100%;
         border-bottom: 2px aqua;
+        position: relative;
+        
 
     }
 
@@ -77,3 +79,13 @@
     }
 
 /* This part of the CSS will dictate how the content of the about me page should behave */
+
+/* CSS for the About Me page */
+
+    .aboutMeBox {
+        background-color: white;
+        padding: 10px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
