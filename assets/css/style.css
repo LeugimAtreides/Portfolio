@@ -1,0 +1,79 @@
+
+/* CSS for all pages */
+
+    body {
+        block-size: auto;
+        background-image: url(../images/interlaced-background-pattern.png);
+        background-attachment: scroll;
+        width: auto;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 5px;
+        font-size: 14px;
+        background-color: rgb(74, 170, 165);
+        width: 100px;
+
+    }
+
+    header {
+        overflow: auto;
+        width: 100%;
+        border-bottom: 2px aqua;
+
+    }
+
+    a {
+        margin: 5px;
+        padding: 5px;
+        border-right: 2px, gainsboro;
+        text-emphasis: none;
+    }
+
+    .wrapper {
+        width: 960px;
+        position: relative;
+        margin: auto;
+    }
+
+    .topPage {
+        background-color: white;
+        overflow: auto;
+        padding: 10px;
+    }
+
+    .bottomPage {
+        background:darkgrey;
+        overflow: auto;
+        padding: 10px;
+    }
+
+    .links {
+        float: right;
+        position: relative;
+        bottom: 34px;
+        left: -466px;
+        font-size: smaller;
+    }
+/* Decoration of links */
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      a:active {
+        text-decoration: underline;
+      }
+
+    }
+
+/* This part of the CSS will dictate how the content of the about me page should behave */
