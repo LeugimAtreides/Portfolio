@@ -13,44 +13,51 @@ I've identified myself as the author for meta descriptors and I've linked the cs
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
     <meta name="author" content="Miguel Villarreal">
-    <link rel="stylesheet" type="text/CSS" src="style.css">
-    <title>Miguel Villarreal Portfolio</title>
+    <link rel="stylesheet" type="text/CSS" href="./assets/css/style.css">
+    <title>Miguel Villarreal Contact</title>
 </head>
 
 <!-- In the body tag I've created the divisions that will make up the webpage. The first division should contain my name as the header in its box, and the links as their own boxes -->
 
 <body>
-    <div>
-        <header>
-            <h1>Miguel Villarreal</h1>
-            <a href="index.html">About Me</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact Me</a>
-        </header>
+    <div class="topPage">
+        <section>
+            <header>
+                <h1>Miguel Villarreal</h1>
+            </header>
+
+            <section class="links">
+                <a href="index.html">About Me</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact Me</a>
+            </section>
+        </section>
     </div>
 
-    <!-- This part of the portfolio is going to be quite challenging but I'm hoping to use images with text already overlayed in order to make an easier path -->
-    <div>
-        <section>
-            <h2>Portfolio</h2>
-        </section>
+    <div class="wrapper">
+        <div class="aboutMeBox">
+            <section id="aboutHeader">
+                <h2>Contact Me</h2>
+            </section>
 
-        <section>
-            <form>
-                Name: <br>
-                <input type="text" name="firstname">
-                <br>
-                Email: <br>
-                <input type="text" name="lastname">
-                Message: <br>
-                <input type="textarea" name="Message">
-            </form>
+            <section class="bioParagraph">
+                <form>
+                    Name: <br>
+                    <input type="text" name="firstname">
+                    <br>
+                    Email: <br>
+                    <input type="text" name="lastname">
+                    Message: <br>
+                    <input type="textarea" name="Message">
+                </form>
 
-        </section>
+            </section>
+
+        </div>
     </div>
 
     <!-- the header, and the footer will be the same among all three pages -->
-    <div>
+    <div class="bottomPage">
         <footer>
             Copyright 2019, design and development by M.E. Villarreal
         </footer>
